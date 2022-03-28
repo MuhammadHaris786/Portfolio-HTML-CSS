@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+}
+
+.form-group {
+  margin-top: 20px;
+  /* padding-left: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 10px 0px;  */
+}
+#formSubmit {
+  margin-top: 5%;
+  margin-right: 70px;
+}
+input:focus {
+  outline: none;
+}
+
+input {
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  margin-left: 25px;
+  margin-top: 16px;
+  padding: 10px;
+}
+.margin-btns:focus,
+#address:focus {
+  border-bottom: 2px solid black;
+}
+/* Submit Button */
+.btnSubmit {
+  border: none;
+  color: black;
+  background: none;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 120px;
+}
+.buy-button {
+  width: 150px;
+  padding: 3px 0px;
+  text-align: center;
+  border-radius: 25px;
+
+  border: 2px solid black;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease-in 0.1s;
+}
+.buy-button:hover {
+  background: rgba(157, 167, 178, 0.1);
+}
+.social-media {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 100px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
