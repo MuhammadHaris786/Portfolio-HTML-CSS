@@ -48,10 +48,15 @@
   border: none;
   border-radius: 25px;
   transition: ease-in-out;
+  border: 3px solid black;
+  transition: ease-in-out 0.1s;
+  color: black;
 }
 .btn-contact:hover {
   cursor: pointer;
-  border: 3px solid black;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 255, 0.7);
+
+  /* background-color: rgba(211, 211, 211, 0.12); */
 }
 @media only screen and (max-width: 700px) {
   .intro-content {

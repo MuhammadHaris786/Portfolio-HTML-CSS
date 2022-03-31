@@ -48,7 +48,16 @@ i {
   padding: 20px 0px;
   padding-left: 20vw;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+  transition: ease-in 0.2s;
+}
+a:hover,
+button:hover {
+  /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); */
+  color: rgba(0, 0, 255, 0.7);
+}
 @media only screen and (max-width: 700px) {
   ul {
     display: none;
